@@ -594,10 +594,10 @@ NOTE: Load Ninostyle Chibi mod after this one.</Description>
       <Link>https://www.nexusmods.com/finalfantasy7/mods/82</Link>
       <LatestVersion>
         <Link>iros://GDrive/1sIwpkJOWG5RpdTvoFXUFxAdcg_AVB8mW</Link>
-        <Version>1.41</Version>
-        <ReleaseDate>2024-09-20</ReleaseDate>
+        <Version>1.42</Version>
+        <ReleaseDate>2024-10-05</ReleaseDate>
         <PreviewImage>https://i.imgur.com/y5WG7Kq.png</PreviewImage>
-        <ReleaseNotes>Fixed a bug with clearing second accessory slot. Also changed names of MLS options to reduce confusion.</ReleaseNotes>
+        <ReleaseNotes>Adjusted show steal/morph code to improve behavior. Might also fix crashing issue.</ReleaseNotes>
         <DownloadSize>7189</DownloadSize>
       </LatestVersion>
       <MetaVersion>0</MetaVersion>
@@ -797,12 +797,12 @@ NOTE: Load Ninostyle Chibi mod after this one.</Description>
       <LatestVersion>
         <Link>iros://Url/https$strifeisrife.7thheaven.rocks//FFVII%20Shinra%20Archaeology%20Cut.iro</Link>
         <Link>iros://GDrive/1ZL8dYQ7RGSZKLrQNKHnR4Z4Md3LFsH2h</Link>
-        <Version>0.51</Version>
-        <ReleaseDate>2024-09-15</ReleaseDate>
+        <Version>1.061</Version>
+        <ReleaseDate>2024-11-29</ReleaseDate>
         <CompatibleGameVersions>All</CompatibleGameVersions>
-        <PreviewImage>https://i.imgur.com/UFTkx2f.png</PreviewImage>
-        <ReleaseNotes>Retranslated materia menu, added Chocobo beta-style icon.</ReleaseNotes>
-        <DownloadSize>507143</DownloadSize>
+        <PreviewImage>https://i.imgur.com/p2BdqVo.jpeg</PreviewImage>
+        <ReleaseNotes>Various minor tweaks.</ReleaseNotes>
+        <DownloadSize>408669</DownloadSize>
       </LatestVersion>
       <Name>Shinra Archaeology Cut</Name>
       <Category>Gameplay</Category>
@@ -1301,6 +1301,26 @@ E.g., Bolt2 = Thundara</Description>
       </Tags>
     </Mod>
 
+## Universal Blink Fix ##
+    <Mod>
+	<ID>ee0e2b9f-9545-4688-b6b5-1f2fb6662aae</ID>
+	<Author>Orichalcon, Odysseus</Author>
+	<Link></Link>
+	<LatestVersion>
+	        <Link>iros://Url/https$strifeisrife.7thheaven.rocks//universal_blink_fix.iro</Link>
+	        <Version>1.01</Version>
+	        <ReleaseDate>2024-11-14</ReleaseDate>
+		<CompatibleGameVersions>All</CompatibleGameVersions>
+	        <PreviewImage>https://i.imgur.com/38CU9ik.png</PreviewImage>
+	        <ReleaseNotes>Fixed issue with not turning advanced blinking off if you turn it on and off again.</ReleaseNotes>
+        	<DownloadSize>5208</DownloadSize>
+	</LatestVersion>
+	<Name>Universal Blink Fix</Name>
+	<Category>Miscellaneous</Category>
+	<Description>Originally part of Shinra Archaeology Cut. Fixes winking issue on various character models and allows for use of advanced facial animations.</Description>
+	<Tags />
+    </Mod>	
+
 ## SPELL TEXTURES ##
 
 ## Satsuki SYW Unified Spells Textures ##
@@ -1717,12 +1737,14 @@ Full retro-modern ESUI theme (Requires Enhanced Stock UI).
       <DonationLink>https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=77DA5WPWUWHCJ&amp;currency_code=USD&amp;source=url</DonationLink>
       <LatestVersion>
         <Link>iros://Url/http://bonez.7thheaven.rocks/%5BTsunamods%5D_Retouch.7z</Link>
-        <Version>0.78</Version>
-        <ReleaseDate>2024-08-10</ReleaseDate>
+        <Version>0.79</Version>
+        <ReleaseDate>2024-11-02</ReleaseDate>
         <CompatibleGameVersions></CompatibleGameVersions>
         <PreviewImage>https://i.imgur.com/vntsPnN.gif</PreviewImage>
         <ReleaseNotes>
 Add Ever Crisis Avatars and Mini Avatars
+Fixed Switch buttons not working correctly
+Add Rebirth Avatars and Mini Avatars
         </ReleaseNotes>
         <DownloadSize>35000</DownloadSize>
       </LatestVersion>
@@ -1742,15 +1764,17 @@ Add Ever Crisis Avatars and Mini Avatars
     <Mod>
       <ID>01427f14-6d02-47b7-84de-39f7991d9042</ID>
       <Author>Bonez, Aavock, Chrysalis</Author>
-      <Link>http://forums.qhimm.com/index.php?topic=21364.0</Link>
+      <Link></Link>
       <DonationLink>https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=77DA5WPWUWHCJ&amp;currency_code=USD&amp;source=url</DonationLink>
       <LatestVersion>
         <Link>iros://Url/http://bonez.7thheaven.rocks/%5BTsunamods%5D_AavockESUI.7z</Link>
-        <Version>0.92</Version>
-        <ReleaseDate>2024-08-06</ReleaseDate>
+        <Version>0.93</Version>
+        <ReleaseDate>2024-10-19</ReleaseDate>
         <CompatibleGameVersions></CompatibleGameVersions>
         <PreviewImage>https://i.imgur.com/aqOIHP0.png</PreviewImage>
         <ReleaseNotes>
+	Change to modern button icons
+	Add Switch button icons
         </ReleaseNotes>
         <DownloadSize>50000</DownloadSize>
       </LatestVersion>
@@ -2194,6 +2218,59 @@ Everyone has a Curse Ring Equipped, the challenge is to win before Death Sentanc
 
         See the mod link for more information.
       </Description>
+      <Tags></Tags>
+    </Mod>
+	  
+## WereXIII - by Wolfman
+    <Mod>
+      <ID>1e3f4894-86bd-4099-ad54-7a2f7dbaa8cf</ID>
+      <Author>WolfMan Kuroda CMH175 and Leet</Author>
+      <Link>https://www.nexusmods.com/finalfantasy7/mods/124</Link>
+ 	<LatestVersion>
+        <Link>iros://GDrive/12jbWSz6nKRsubPctzUHD57zfjNRMtzXL</Link>
+	<Version>3.00</Version>
+        <ReleaseDate>2014-06-10</ReleaseDate>
+        <CompatibleGameVersions>All</CompatibleGameVersions>
+        <PreviewImage></PreviewImage>
+        <ReleaseNotes/>
+        <DownloadSize>218904</DownloadSize>
+	</LatestVersion>
+      <Name>WereXIII</Name>
+      <Category>Gameplay</Category>
+      <Description>
+IMPORTANT = This Mod must be placed at the top.
+This project was a long immense project. This project has been unreal. It started June 23rd 2014 and took 3 months. This mod replaces Red XIII, a quadruped Lionish with a full blown kick-ass Lycanthrope. This mod includes the battle model, field model, custom animations, 7 limit breaks, avatar and all casting animations. A lot of people have had hands in on this and I really appreciate it. If you find any problems or bugs or ideas on animation tweaks let me know. 
+:::Thanks:::to those who worked directly on the project and especially CMH175, who I feel ended up more as a co producer than someone who assisted.
+CMH175 
+Leet 
+Jeet 
+Kaldarasha 
+EQ2Alyza 
+Kuroda 
+Jusete	
+And everyone who had suggestions and pointers.
+And all of the creators of the tools that were used for the project.
+      </Description>
+      <Tags></Tags>
+    </Mod>
+	  
+## Dynamic Weapons Fix ##
+    <Mod>
+      <ID>3b25060c-c60e-426e-ac46-f85439e973e5</ID>
+      <Author>htp314</Author>
+      <Link></Link>
+      <LatestVersion>
+        <Link>iros://GDrive/1c9N7at4dGdumoETpDgDQ-8Z_mDSmlnY6</Link>
+        <Version>1.0</Version>
+        <ReleaseDate>2024-11-26</ReleaseDate>
+        <CompatibleGameVersions>All</CompatibleGameVersions>
+        <PreviewImage></PreviewImage>
+        <ReleaseNotes/>
+        <DownloadSize>35936</DownloadSize>
+      </LatestVersion>
+      <Name>Dynamic Weapons Fix</Name>
+      <Category>Field Models</Category>
+      <Description>This mod fixes the Dynamic Weapons from clipping into Cloud</Description>
       <Tags></Tags>
     </Mod>
 
